@@ -45,6 +45,7 @@ jobs:
           mv test/mkdocs.yml .
           mv test/docs .
           mv test/src .
+          mv test/README.md .
 
       - name: Deploy documentation
         run: mkdocs gh-deploy --force
